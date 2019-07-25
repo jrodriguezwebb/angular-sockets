@@ -9,9 +9,7 @@ import { WebsocketService } from './services/websocket.service';
 export class AppComponent implements OnInit {
   title = 'angular';
 
-  constructor(
-    public wsService: WebsocketService
-  ) {}
+  constructor( ) {}
 
   ngOnInit() {
   }
